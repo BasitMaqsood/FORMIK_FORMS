@@ -5,12 +5,13 @@ import "./App.css";
 // import Basic2Component from "./component/basic2Component";
 // import SignUpComponent from "./component/signUpForm";
 // import SignUpComponent2 from "./component/FormComponent";
-import FormComponent from "./component/FormWithFormikValidation";
+// import FormComponent from "./component/FormWithFormikValidation";
+import FormikWithClassComponent from "./component/FormikWithClassComponent";
 
 function App() {
   return (
     <div>
-      <FormComponent />
+      <FormikWithClassComponent />
     </div>
   );
 }
